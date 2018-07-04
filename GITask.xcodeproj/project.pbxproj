@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8CB87E720ECC3000068F047 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8CB87E620ECC2FF0068F047 /* ViewController.xib */; };
 		BE5CBD2420ECBE480044B685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CBD2320ECBE480044B685 /* AppDelegate.swift */; };
 		BE5CBD2620ECBE480044B685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CBD2520ECBE480044B685 /* ViewController.swift */; };
 		BE5CBD2920ECBE480044B685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5CBD2720ECBE480044B685 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8CB87E620ECC2FF0068F047 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		BE5CBD2020ECBE480044B685 /* GITask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5CBD2320ECBE480044B685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE5CBD2520ECBE480044B685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				BE5CBD2320ECBE480044B685 /* AppDelegate.swift */,
 				BE5CBD2520ECBE480044B685 /* ViewController.swift */,
+				A8CB87E620ECC2FF0068F047 /* ViewController.xib */,
 				BE5CBD2720ECBE480044B685 /* Main.storyboard */,
 				BE5CBD2D20ECBE490044B685 /* Assets.xcassets */,
 				BE5CBD2F20ECBE490044B685 /* LaunchScreen.storyboard */,
@@ -127,6 +130,7 @@
 			files = (
 				BE5CBD3120ECBE490044B685 /* LaunchScreen.storyboard in Resources */,
 				BE5CBD2E20ECBE490044B685 /* Assets.xcassets in Resources */,
+				A8CB87E720ECC3000068F047 /* ViewController.xib in Resources */,
 				BE5CBD2920ECBE480044B685 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
