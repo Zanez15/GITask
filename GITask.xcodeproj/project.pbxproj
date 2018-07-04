@@ -13,6 +13,8 @@
 		BE5CBD2C20ECBE480044B685 /* GITask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE5CBD2A20ECBE480044B685 /* GITask.xcdatamodeld */; };
 		BE5CBD2E20ECBE490044B685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5CBD2D20ECBE490044B685 /* Assets.xcassets */; };
 		BE5CBD3120ECBE490044B685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5CBD2F20ECBE490044B685 /* LaunchScreen.storyboard */; };
+		BE5CBD3A20ECC4750044B685 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CBD3820ECC4750044B685 /* ProfileViewController.swift */; };
+		BE5CBD3D20ECC4B20044B685 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE5CBD3C20ECC4B20044B685 /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BE5CBD2D20ECBE490044B685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE5CBD3020ECBE490044B685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE5CBD3220ECBE490044B685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5CBD3820ECC4750044B685 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BE5CBD3C20ECC4B20044B685 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				BE5CBD2320ECBE480044B685 /* AppDelegate.swift */,
 				BE5CBD2520ECBE480044B685 /* ViewController.swift */,
+				BE5CBD3820ECC4750044B685 /* ProfileViewController.swift */,
+				BE5CBD3C20ECC4B20044B685 /* ProfileViewController.xib */,
 				BE5CBD2720ECBE480044B685 /* Main.storyboard */,
 				BE5CBD2D20ECBE490044B685 /* Assets.xcassets */,
 				BE5CBD2F20ECBE490044B685 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				BE5CBD3120ECBE490044B685 /* LaunchScreen.storyboard in Resources */,
 				BE5CBD2E20ECBE490044B685 /* Assets.xcassets in Resources */,
+				BE5CBD3D20ECC4B20044B685 /* ProfileViewController.xib in Resources */,
 				BE5CBD2920ECBE480044B685 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				BE5CBD2620ECBE480044B685 /* ViewController.swift in Sources */,
 				BE5CBD2420ECBE480044B685 /* AppDelegate.swift in Sources */,
+				BE5CBD3A20ECC4750044B685 /* ProfileViewController.swift in Sources */,
 				BE5CBD2C20ECBE480044B685 /* GITask.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
