@@ -27,17 +27,17 @@ class ViewController: UIViewController {
         static var firstname = ""
         static var lastname = ""
         static var sex = ""
-        static var age = 0
+        static var age = ""
         static var password = ""
     }
     
     func saveInputs(){
-        profile.username = usernameField.text
-        profile.firstname = firstnameField.text
-        profile.lastname = lastnameField.text
-        profile.sex = sexField.text
-        profile.age = ageField.text
-        profiler.password = passwordField.text
+        profile.username = usernameField.text!
+        profile.firstname = firstnameField.text!
+        profile.lastname = lastnameField.text!
+        profile.sex = sexField.text!
+        profile.age = ageField.text!
+        profile.password = passwordField.text!
         
     }
     
