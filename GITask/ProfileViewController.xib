@@ -12,6 +12,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="GITask" customModuleProvider="target">
             <connections>
+                <outlet property="ageLabel" destination="2hz-XA-Kom" id="fna-3b-1s4"/>
+                <outlet property="nameLabel" destination="21S-tV-MZo" id="RMO-OO-vID"/>
+                <outlet property="sexLabel" destination="EAM-ye-Esi" id="KPJ-K2-fH0"/>
+                <outlet property="username" destination="tk8-jO-D1Q" id="wII-y9-730"/>
                 <outlet property="view" destination="tbj-wl-hXl" id="YK4-jp-94U"/>
             </connections>
         </placeholder>
@@ -20,26 +24,26 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hz-XA-Kom">
-                    <rect key="frame" x="20" y="130" width="30" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAM-ye-Esi">
-                    <rect key="frame" x="20" y="101" width="28" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tk8-jO-D1Q">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tk8-jO-D1Q">
                     <rect key="frame" x="20" y="43" width="79" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21S-tV-MZo">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21S-tV-MZo">
                     <rect key="frame" x="20" y="72" width="45" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAM-ye-Esi">
+                    <rect key="frame" x="20" y="101" width="28" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hz-XA-Kom">
+                    <rect key="frame" x="20" y="130" width="30" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -47,10 +51,14 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="21S-tV-MZo" firstAttribute="top" secondItem="tk8-jO-D1Q" secondAttribute="bottom" constant="8" symbolic="YES" id="MOI-fK-2YI"/>
+                <constraint firstItem="EAM-ye-Esi" firstAttribute="top" secondItem="21S-tV-MZo" secondAttribute="bottom" constant="8" symbolic="YES" id="Qc0-Ar-ZUV"/>
                 <constraint firstItem="2hz-XA-Kom" firstAttribute="leading" secondItem="sxk-Po-brd" secondAttribute="leading" constant="20" id="ZpD-Qx-Yoq"/>
                 <constraint firstItem="tk8-jO-D1Q" firstAttribute="leading" secondItem="sxk-Po-brd" secondAttribute="leading" constant="20" id="f78-Ub-wWO"/>
+                <constraint firstItem="2hz-XA-Kom" firstAttribute="top" secondItem="EAM-ye-Esi" secondAttribute="bottom" constant="8" symbolic="YES" id="fUY-Dx-rmW"/>
                 <constraint firstItem="21S-tV-MZo" firstAttribute="leading" secondItem="sxk-Po-brd" secondAttribute="leading" constant="20" id="l01-MC-uf6"/>
                 <constraint firstItem="EAM-ye-Esi" firstAttribute="leading" secondItem="sxk-Po-brd" secondAttribute="leading" constant="20" id="saB-0v-i1g"/>
+                <constraint firstItem="21S-tV-MZo" firstAttribute="top" secondItem="tbj-wl-hXl" secondAttribute="top" constant="72" id="zov-tr-cF8"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="sxk-Po-brd"/>
             <point key="canvasLocation" x="72" y="24"/>
