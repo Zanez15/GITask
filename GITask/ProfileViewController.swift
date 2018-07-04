@@ -18,36 +18,41 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let delegate = UIApplication.shared.delegate as! AppDelegate
-        let context = delegate.persistentContainer.viewContext
+//        let delegate = UIApplication.shared.delegate as! AppDelegate
+//        let context = delegate.persistentContainer.viewContext
+//
+//        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+//        request.returnsObjectsAsFaults = false
+//
+//        do {
+//            let results = try context.fetch(request)
+//            if results.count > 0
+//            {
+//                for numData in results as! [NSManagedObject]
+//                {
+//                    if username.text == numData.value(forKey: "username") as? String
+//                    {
+//                        if password.text == numData.value(forKey: "password") as? String
+//                        {
+//                            username.text = "Welcome, \(numData.value(forKey: "username") as? String!)"
+//                            nameLabel.text = "\(numData.value(forKey: "username") as? String!)"
+//                            sexLabel.text = "\(numData.value(forKey: "sex") as? String!)"
+//                            ageLabel.text = "\(numData.value(forKey: "age") as? Int)"
+//                            break
+//                        }
+//                    }
+//                }
+//            }
+//            print("Berhasil Menampilkan Data")
+//        } catch {
+//            print("Gagal Menampilkan Data")
+//        }
+//        // Do any additional setup after loading the view.
         
-        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
-        request.returnsObjectsAsFaults = false
-        
-        do {
-            let results = try context.fetch(request)
-            if results.count > 0
-            {
-                for numData in results as! [NSManagedObject]
-                {
-                    if username.text == numData.value(forKey: "username") as? String
-                    {
-                        if password.text == numData.value(forKey: "password") as? String
-                        {
-                            username.text = "Welcome, \(numData.value(forKey: "username") as? String!)"
-                            nameLabel.text = "\(numData.value(forKey: "username") as? String!)"
-                            sexLabel.text = "\(numData.value(forKey: "sex") as? String!)"
-                            ageLabel.text = "\(numData.value(forKey: "age") as? Int)"
-                            break
-                        }
-                    }
-                }
-            }
-            print("Berhasil Menampilkan Data")
-        } catch {
-            print("Gagal Menampilkan Data")
-        }
-        // Do any additional setup after loading the view.
+        username.text = ViewController.profile.username
+        nameLabel.text = ViewController.profile.firstname
+        sexLabel.text = ViewController.profile.sex
+        ageLabel.text = ViewController.profile.age
     }
 
     override func didReceiveMemoryWarning() {
