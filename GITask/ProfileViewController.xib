@@ -19,7 +19,39 @@
         <view contentMode="scaleToFill" id="tbj-wl-hXl">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hz-XA-Kom">
+                    <rect key="frame" x="20" y="130" width="30" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAM-ye-Esi">
+                    <rect key="frame" x="20" y="101" width="28" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tk8-jO-D1Q">
+                    <rect key="frame" x="20" y="43" width="79" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21S-tV-MZo">
+                    <rect key="frame" x="20" y="72" width="45" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2hz-XA-Kom" firstAttribute="leading" secondItem="sxk-Po-brd" secondAttribute="leading" constant="20" id="ZpD-Qx-Yoq"/>
+                <constraint firstItem="tk8-jO-D1Q" firstAttribute="leading" secondItem="sxk-Po-brd" secondAttribute="leading" constant="20" id="f78-Ub-wWO"/>
+                <constraint firstItem="21S-tV-MZo" firstAttribute="leading" secondItem="sxk-Po-brd" secondAttribute="leading" constant="20" id="l01-MC-uf6"/>
+                <constraint firstItem="EAM-ye-Esi" firstAttribute="leading" secondItem="sxk-Po-brd" secondAttribute="leading" constant="20" id="saB-0v-i1g"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="sxk-Po-brd"/>
             <point key="canvasLocation" x="72" y="24"/>
         </view>
